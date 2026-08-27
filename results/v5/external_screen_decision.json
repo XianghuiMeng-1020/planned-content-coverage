@@ -1,0 +1,12 @@
+{
+  "protocol": "v5_external_planned_content",
+  "decision": "NO_ELIGIBLE_EXTERNAL_DATASET",
+  "project_verdict": "OULAD_ONLY_GO",
+  "n_datasets_screened": 22,
+  "n_semantically_eligible": 0,
+  "primary": null,
+  "secondary": null,
+  "outcomes_inspected_on_new_corpus": false,
+  "ggg_retried": false,
+  "construct_unchanged": "planned-content coverage before assessed work"
+}

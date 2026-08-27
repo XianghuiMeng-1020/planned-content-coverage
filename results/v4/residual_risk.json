@@ -1,0 +1,92 @@
+{
+  "n": 39647,
+  "resid_corr": -0.05142190193786923,
+  "resid_p": 1.2416803023446454e-24,
+  "resid_coef": -2.567887997806662,
+  "resid_ci": [
+    -3.0701182826686293,
+    -2.0656577129446947
+  ],
+  "partial_r2_approx": 0.0026442119989078397,
+  "n_pres_neg": 10,
+  "by_presentation": [
+    {
+      "code_module": "AAA",
+      "code_presentation": "2013J",
+      "r": -0.08123810740030091,
+      "n": 356
+    },
+    {
+      "code_module": "AAA",
+      "code_presentation": "2014J",
+      "r": -0.08586626857936343,
+      "n": 337
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2013J",
+      "r": 0.05338006062706298,
+      "n": 1685
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014B",
+      "r": 0.07726070376306243,
+      "n": 1179
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014J",
+      "r": 0.08957725312240455,
+      "n": 4800
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014B",
+      "r": -0.07710612544536845,
+      "n": 1623
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014J",
+      "r": -0.11163886846173916,
+      "n": 2550
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2013J",
+      "r": -0.26538953897239526,
+      "n": 2879
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014B",
+      "r": -0.2573773255742623,
+      "n": 1778
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014J",
+      "r": -0.2103264155665835,
+      "n": 3227
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "r": -0.17457729330457006,
+      "n": 7377
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "r": -0.09820440274598094,
+      "n": 4633
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "r": -0.138715113077599,
+      "n": 7223
+    }
+  ]
+}

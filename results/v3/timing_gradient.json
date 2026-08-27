@@ -1,0 +1,112 @@
+{
+  "by_state": [
+    {
+      "state": "early",
+      "n": 48574,
+      "mean_score": 78.42502161650266,
+      "sd": 22.76412597909674
+    },
+    {
+      "state": "late",
+      "n": 64974,
+      "mean_score": 76.54075476344384,
+      "sd": 16.53430323592595
+    },
+    {
+      "state": "never",
+      "n": 195387,
+      "mean_score": 70.57171664440315,
+      "sd": 19.488888687392112
+    },
+    {
+      "state": "ontime",
+      "n": 39944,
+      "mean_score": 77.01985279391148,
+      "sd": 19.337156601594895
+    }
+  ],
+  "ontime_minus_never": 6.448136149508329,
+  "ontime_minus_late": 0.47909803046763955,
+  "late_minus_never": 5.96903811904069,
+  "by_presentation_ontime_minus_never": [
+    {
+      "code_module": "AAA",
+      "code_presentation": "2013J",
+      "ontime_minus_never": 6.864197530864196,
+      "n": 1068
+    },
+    {
+      "code_module": "AAA",
+      "code_presentation": "2014J",
+      "ontime_minus_never": 6.978848008819078,
+      "n": 1009
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2013J",
+      "ontime_minus_never": 3.5554824725315797,
+      "n": 1685
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014B",
+      "ontime_minus_never": 1.8286326868726235,
+      "n": 1179
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014J",
+      "ontime_minus_never": 0.8245969932097665,
+      "n": 38686
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014B",
+      "ontime_minus_never": 5.0867256145033934,
+      "n": 4180
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014J",
+      "ontime_minus_never": 5.562180526047939,
+      "n": 6498
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2013J",
+      "ontime_minus_never": 10.03468181780191,
+      "n": 15129
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014B",
+      "ontime_minus_never": 10.695767184173135,
+      "n": 8929
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014J",
+      "ontime_minus_never": 8.605246679903587,
+      "n": 17875
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "ontime_minus_never": 8.617024652469624,
+      "n": 97849
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "ontime_minus_never": 9.047803512048915,
+      "n": 55338
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "ontime_minus_never": 6.497682931025082,
+      "n": 99454
+    }
+  ],
+  "n_pres_ontime_better_than_never": 13
+}

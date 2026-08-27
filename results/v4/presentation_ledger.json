@@ -1,0 +1,132 @@
+[
+  {
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 374,
+    "n_eligible_resources": 3,
+    "n_learner_tma_occasions": 374,
+    "n_scored_occasions": 356,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 352,
+    "n_eligible_resources": 3,
+    "n_learner_tma_occasions": 352,
+    "n_scored_occasions": 337,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "BBB",
+    "code_presentation": "2013J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 1895,
+    "n_eligible_resources": 1,
+    "n_learner_tma_occasions": 1895,
+    "n_scored_occasions": 1685,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "BBB",
+    "code_presentation": "2014B",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 1315,
+    "n_eligible_resources": 1,
+    "n_learner_tma_occasions": 1315,
+    "n_scored_occasions": 1179,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "BBB",
+    "code_presentation": "2014J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 2051,
+    "n_eligible_resources": 24,
+    "n_learner_tma_occasions": 5584,
+    "n_scored_occasions": 4800,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "CCC",
+    "code_presentation": "2014B",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 1650,
+    "n_eligible_resources": 5,
+    "n_learner_tma_occasions": 3148,
+    "n_scored_occasions": 1623,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "CCC",
+    "code_presentation": "2014J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 2284,
+    "n_eligible_resources": 5,
+    "n_learner_tma_occasions": 4302,
+    "n_scored_occasions": 2550,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "EEE",
+    "code_presentation": "2013J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 955,
+    "n_eligible_resources": 26,
+    "n_learner_tma_occasions": 3642,
+    "n_scored_occasions": 2879,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "EEE",
+    "code_presentation": "2014B",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 624,
+    "n_eligible_resources": 26,
+    "n_learner_tma_occasions": 2374,
+    "n_scored_occasions": 1778,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "EEE",
+    "code_presentation": "2014J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 1121,
+    "n_eligible_resources": 27,
+    "n_learner_tma_occasions": 4072,
+    "n_scored_occasions": 3227,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "FFF",
+    "code_presentation": "2013J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 2033,
+    "n_eligible_resources": 88,
+    "n_learner_tma_occasions": 9584,
+    "n_scored_occasions": 7377,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "FFF",
+    "code_presentation": "2014B",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 1339,
+    "n_eligible_resources": 82,
+    "n_learner_tma_occasions": 6290,
+    "n_scored_occasions": 4633,
+    "prior_status": "v4_development"
+  },
+  {
+    "code_module": "FFF",
+    "code_presentation": "2014J",
+    "resource_family": "oucontent",
+    "n_eligible_learners": 2168,
+    "n_eligible_resources": 82,
+    "n_learner_tma_occasions": 9185,
+    "n_scored_occasions": 7223,
+    "prior_status": "v4_development"
+  }
+]
