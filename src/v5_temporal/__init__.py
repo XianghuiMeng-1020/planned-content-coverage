@@ -1,1 +1,1 @@
-"""Occasion helpers shared by learner-level analyses."""
+"""Phase-1 submission-safe temporal reconstruction. Does not overwrite results/v4."""

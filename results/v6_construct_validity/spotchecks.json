@@ -1,0 +1,312 @@
+[
+  {
+    "group": "early",
+    "row_id": "EEE|2014J|646005|30719",
+    "n_opp": 5,
+    "date_submitted": 27.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "CCC|2014J|2691267|24292",
+    "n_opp": 2,
+    "date_submitted": 106.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "FFF|2013J|598213|34874",
+    "n_opp": 7,
+    "date_submitted": 45.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "FFF|2013J|575186|34876",
+    "n_opp": 15,
+    "date_submitted": 129.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "FFF|2013J|499564|34876",
+    "n_opp": 15,
+    "date_submitted": 128.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "BBB|2013J|191269|14996",
+    "n_opp": 1,
+    "date_submitted": 18.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "BBB|2014J|568775|15020",
+    "n_opp": 8,
+    "date_submitted": 16.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "BBB|2014J|680926|15021",
+    "n_opp": 11,
+    "date_submitted": 53.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "BBB|2013J|284906|14996",
+    "n_opp": 1,
+    "date_submitted": 10.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "early",
+    "row_id": "BBB|2013J|599908|14996",
+    "n_opp": 1,
+    "date_submitted": 18.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "FFF|2013J|605954|34873",
+    "n_opp": 6,
+    "date_submitted": 19.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "FFF|2014B|483389|34888",
+    "n_opp": 30,
+    "date_submitted": 87.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "FFF|2014B|613717|34888",
+    "n_opp": 30,
+    "date_submitted": 87.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "CCC|2014J|677018|24292",
+    "n_opp": 2,
+    "date_submitted": 109.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "BBB|2013J|472327|14996",
+    "n_opp": 1,
+    "date_submitted": 19.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "AAA|2013J|2143752|1752",
+    "n_opp": 3,
+    "date_submitted": 19.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "BBB|2013J|530514|14996",
+    "n_opp": 1,
+    "date_submitted": 19.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "FFF|2014B|2055321|34887",
+    "n_opp": 2,
+    "date_submitted": 52.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "FFF|2013J|381058|34873",
+    "n_opp": 6,
+    "date_submitted": 19.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "ontime",
+    "row_id": "FFF|2014J|228633|34902",
+    "n_opp": 16,
+    "date_submitted": 136.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2013J|604741|34875",
+    "n_opp": 33,
+    "date_submitted": 101.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2014J|2544643|34899",
+    "n_opp": 7,
+    "date_submitted": 27.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "EEE|2014J|653168|30719",
+    "n_opp": 6,
+    "date_submitted": 42.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2014J|697299|34899",
+    "n_opp": 6,
+    "date_submitted": 25.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2014J|2697921|34902",
+    "n_opp": 16,
+    "date_submitted": 143.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "AAA|2013J|2391984|1752",
+    "n_opp": 3,
+    "date_submitted": 20.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2014J|287079|34899",
+    "n_opp": 7,
+    "date_submitted": 30.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2014J|195246|34901",
+    "n_opp": 32,
+    "date_submitted": 106.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2014J|652647|34900",
+    "n_opp": 2,
+    "date_submitted": 57.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "late",
+    "row_id": "FFF|2014J|693812|34899",
+    "n_opp": 6,
+    "date_submitted": 29.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "low_n",
+    "row_id": "FFF|2014B|634924|34887",
+    "n_opp": 2,
+    "date_submitted": 50.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "low_n",
+    "row_id": "FFF|2014B|617010|34887",
+    "n_opp": 2,
+    "date_submitted": 51.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "low_n",
+    "row_id": "BBB|2014B|485180|15008",
+    "n_opp": 1,
+    "date_submitted": 11.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "low_n",
+    "row_id": "CCC|2014J|685964|24292",
+    "n_opp": 2,
+    "date_submitted": 105.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "low_n",
+    "row_id": "CCC|2014J|630431|24292",
+    "n_opp": 2,
+    "date_submitted": 109.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "high_n",
+    "row_id": "FFF|2013J|2056416|34876",
+    "n_opp": 15,
+    "date_submitted": 135.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "high_n",
+    "row_id": "FFF|2014J|681328|34902",
+    "n_opp": 16,
+    "date_submitted": 136.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "high_n",
+    "row_id": "FFF|2014J|501897|34902",
+    "n_opp": 16,
+    "date_submitted": 137.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "high_n",
+    "row_id": "FFF|2014J|620810|34901",
+    "n_opp": 32,
+    "date_submitted": 92.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "high_n",
+    "row_id": "BBB|2014J|2407594|15021",
+    "n_opp": 11,
+    "date_submitted": 53.0,
+    "holds_n_opp_ge1": true
+  },
+  {
+    "group": "zero_opp",
+    "row_id": "BBB|2014J|697857|15020",
+    "n_opp": 0,
+    "date_submitted": 0.0
+  },
+  {
+    "group": "zero_opp",
+    "row_id": "BBB|2014J|655471|15020",
+    "n_opp": 0,
+    "date_submitted": 4.0
+  },
+  {
+    "group": "zero_opp",
+    "row_id": "BBB|2014J|699488|15020",
+    "n_opp": 0,
+    "date_submitted": 5.0
+  },
+  {
+    "group": "zero_opp",
+    "row_id": "BBB|2014J|531753|15020",
+    "n_opp": 0,
+    "date_submitted": 4.0
+  },
+  {
+    "group": "zero_opp",
+    "row_id": "BBB|2014B|628616|15008",
+    "n_opp": 0,
+    "date_submitted": 4.0
+  }
+]

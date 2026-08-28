@@ -1,0 +1,12 @@
+{
+  "I1": "STRONG PASS",
+  "I2": "STRONG PASS",
+  "I3": "MODERATE",
+  "I4": "PASS",
+  "I5": "HETEROGENEOUS",
+  "I6": "PASS",
+  "I7": "STRONG PASS",
+  "verdict": "PROCEED_TO_PHASE4_TIMING_THEORY",
+  "n_cross_zero": 5,
+  "n_pos_ci": 0
+}

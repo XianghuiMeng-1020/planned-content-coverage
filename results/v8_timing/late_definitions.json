@@ -1,0 +1,57 @@
+{
+  "first_state": [
+    {
+      "state": "early",
+      "n": 44278,
+      "mean_score": 79.31939111974344,
+      "sd_score": 20.316381620988203
+    },
+    {
+      "state": "late",
+      "n": 64344,
+      "mean_score": 76.16717953499938,
+      "sd_score": 16.216780060037422
+    },
+    {
+      "state": "never",
+      "n": 188160,
+      "mean_score": 70.69151785714286,
+      "sd_score": 19.321809227778637
+    },
+    {
+      "state": "ontime",
+      "n": 38508,
+      "mean_score": 77.25085696478654,
+      "sd_score": 18.349307529389687
+    }
+  ],
+  "late_catchup_vs_other": [
+    {
+      "state": "early",
+      "n": 37464,
+      "mean_score": 79.12724215246637,
+      "sd_score": 21.02013684974604
+    },
+    {
+      "state": "late_catchup",
+      "n": 71158,
+      "mean_score": 76.57019590207707,
+      "sd_score": 16.23014769723918
+    },
+    {
+      "state": "never",
+      "n": 188160,
+      "mean_score": 70.69151785714286,
+      "sd_score": 19.321809227778637
+    },
+    {
+      "state": "ontime",
+      "n": 38508,
+      "mean_score": 77.25085696478654,
+      "sd_score": 18.349307529389687
+    }
+  ],
+  "n_first_state_late": 64344,
+  "n_late_catchup": 71158,
+  "n_late_and_also_ontime": 0
+}

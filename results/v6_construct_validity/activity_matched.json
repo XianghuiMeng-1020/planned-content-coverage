@@ -1,0 +1,304 @@
+{
+  "method": "within presentation x assessment terciles of prior, log_clicks, active_rate, n_opp; high vs low coverage tercile; min 4/arm",
+  "n_cells_or_assessments": 11,
+  "n_presentations": 6,
+  "presentations": [
+    "BBB_2014J",
+    "CCC_2014J",
+    "EEE_2014J",
+    "FFF_2013J",
+    "FFF_2014B",
+    "FFF_2014J"
+  ],
+  "n_obs": 12970,
+  "unweighted_mean": 4.161600971856983,
+  "weighted_mean": 3.6351743381776345,
+  "ci": [
+    2.083333364920986,
+    6.252280484571583
+  ],
+  "n_positive": 9,
+  "mean_abs_smd": 0.36432408374745795,
+  "balance_acceptable": false,
+  "by_assessment": [
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014J",
+      "next_id_assessment": 15021,
+      "diff": 2.386796011028693,
+      "n_cells": 6,
+      "n": 1573
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014J",
+      "next_id_assessment": 24292,
+      "diff": 0.0,
+      "n_cells": 9,
+      "n": 1112
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014J",
+      "next_id_assessment": 30720,
+      "diff": 1.223537448564528,
+      "n_cells": 9,
+      "n": 815
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "next_id_assessment": 34874,
+      "diff": 4.769989528995998,
+      "n_cells": 9,
+      "n": 1614
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "next_id_assessment": 34876,
+      "diff": 1.1195297239500985,
+      "n_cells": 9,
+      "n": 1304
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "next_id_assessment": 34877,
+      "diff": 3.1350684772717807,
+      "n_cells": 9,
+      "n": 1150
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "next_id_assessment": 34887,
+      "diff": 7.250361829722528,
+      "n_cells": 9,
+      "n": 1020
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "next_id_assessment": 34888,
+      "diff": 9.496279304198165,
+      "n_cells": 5,
+      "n": 867
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "next_id_assessment": 34890,
+      "diff": 12.335983696901318,
+      "n_cells": 7,
+      "n": 709
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "next_id_assessment": 34900,
+      "diff": 0.0,
+      "n_cells": 9,
+      "n": 1511
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "next_id_assessment": 34902,
+      "diff": 4.060064669793707,
+      "n_cells": 6,
+      "n": 1295
+    }
+  ],
+  "dropped": [
+    {
+      "code_module": "AAA",
+      "code_presentation": "2013J",
+      "next_id_assessment": 1752,
+      "reason": "no_cell",
+      "n": 356
+    },
+    {
+      "code_module": "AAA",
+      "code_presentation": "2014J",
+      "next_id_assessment": 1758,
+      "reason": "no_cell",
+      "n": 319
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2013J",
+      "next_id_assessment": 14996,
+      "reason": "no_cell",
+      "n": 1603
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014B",
+      "next_id_assessment": 15008,
+      "reason": "no_cell",
+      "n": 1060
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014J",
+      "next_id_assessment": 15020,
+      "reason": "no_cell",
+      "n": 1529
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014J",
+      "next_id_assessment": 15022,
+      "reason": "no_cell",
+      "n": 1462
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014B",
+      "next_id_assessment": 24282,
+      "reason": "no_cell",
+      "n": 926
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014B",
+      "next_id_assessment": 24283,
+      "reason": "no_cell",
+      "n": 688
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014J",
+      "next_id_assessment": 24291,
+      "reason": "no_cell",
+      "n": 1381
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2013J",
+      "next_id_assessment": 30709,
+      "reason": "no_cell",
+      "n": 823
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2013J",
+      "next_id_assessment": 30710,
+      "reason": "no_cell",
+      "n": 747
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2013J",
+      "next_id_assessment": 30711,
+      "reason": "no_cell",
+      "n": 682
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2013J",
+      "next_id_assessment": 30712,
+      "reason": "no_cell",
+      "n": 627
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014B",
+      "next_id_assessment": 30714,
+      "reason": "no_cell",
+      "n": 531
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014B",
+      "next_id_assessment": 30715,
+      "reason": "no_cell",
+      "n": 461
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014B",
+      "next_id_assessment": 30716,
+      "reason": "no_cell",
+      "n": 413
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014B",
+      "next_id_assessment": 30717,
+      "reason": "no_cell",
+      "n": 372
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014J",
+      "next_id_assessment": 30719,
+      "reason": "no_cell",
+      "n": 911
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014J",
+      "next_id_assessment": 30721,
+      "reason": "no_cell",
+      "n": 763
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014J",
+      "next_id_assessment": 30722,
+      "reason": "no_cell",
+      "n": 699
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "next_id_assessment": 34873,
+      "reason": "no_cell",
+      "n": 1778
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "next_id_assessment": 34875,
+      "reason": "no_cell",
+      "n": 1383
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "next_id_assessment": 34886,
+      "reason": "no_cell",
+      "n": 1136
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "next_id_assessment": 34889,
+      "reason": "no_cell",
+      "n": 797
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "next_id_assessment": 34899,
+      "reason": "no_cell",
+      "n": 1738
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "next_id_assessment": 34901,
+      "reason": "no_cell",
+      "n": 1373
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "next_id_assessment": 34903,
+      "reason": "no_cell",
+      "n": 1134
+    }
+  ]
+}

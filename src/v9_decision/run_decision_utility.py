@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Learner-level decision utility. Writes only results/v9_decision_utility/."""
+"""Phase-5 decision utility. Writes only results/v9_decision_utility/."""
 from __future__ import annotations
 
 import json

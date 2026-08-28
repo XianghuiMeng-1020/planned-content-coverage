@@ -1,0 +1,18 @@
+{
+  "mundlak_within": -4.754729894369729,
+  "mundlak_within_ci": [
+    -5.5924668841332155,
+    -3.9169929046062424
+  ],
+  "mundlak_between": 0.22058639376245925,
+  "mundlak_between_ci": [
+    -1.0322555170482959,
+    1.4734283045732144
+  ],
+  "spearman_learner_means": -0.17870975984196358,
+  "spearman_within_dev": -0.19579994362697448,
+  "spearman_prior": -0.23797089981077438,
+  "spearman_next": -0.24325091986547326,
+  "n": 38662,
+  "n_learners": 14603
+}

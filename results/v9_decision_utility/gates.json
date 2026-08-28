@@ -1,0 +1,17 @@
+{
+  "P1": "STRONG PASS",
+  "P2": "STRONG PASS",
+  "P2_LOPO": "STRONG PASS",
+  "P2_LOMO": "STRONG PASS",
+  "P3": "PASS",
+  "P4": "MIXED",
+  "P5": "MIXED",
+  "P6_letter_formula": "MODESTLY_INCREMENTAL",
+  "P6": "INTERPRETIVE_ONLY",
+  "pattern_association": "P1",
+  "pattern": "P4",
+  "verdict": "PROCEED_WITH_INTERPRETIVE_ONLY_VALUE",
+  "p6_note": "Section 19: Delta AUROC 0.0008 and budget extra of -1 at 10% are not incremental practical value",
+  "submit_assoc_supported": true,
+  "lowscore_assoc_supported": true
+}

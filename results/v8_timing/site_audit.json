@@ -1,0 +1,8 @@
+{
+  "n_documented_sites": 373,
+  "n_end_safe_rows_after_primary_join": 335290,
+  "n_primary_keys_with_sites": 38662,
+  "never_share_max_abs_delta": 0.0,
+  "never_share_mean_abs_delta": 0.0,
+  "n_ties": 3583
+}

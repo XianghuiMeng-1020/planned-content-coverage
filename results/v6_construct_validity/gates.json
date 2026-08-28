@@ -1,0 +1,15 @@
+{
+  "C1": "PASS",
+  "C2": "STRONG PASS",
+  "C2_controlled": "STRONG PASS",
+  "C2_fe": "STRONG PASS",
+  "C3": "STRONG PASS",
+  "C4": "STRONG PASS",
+  "C4_ratio": 3.4182681706783953,
+  "C5": "FAIL",
+  "C6": "PASS",
+  "C7": "NOT SUPPORTED",
+  "verdict": "PROCEED_TO_PHASE3_GENERAL_CONTENT_REACH_ONLY",
+  "scenario": "B",
+  "note": "C5 fail + C2 survive => general planned-content reach, not official-schedule specificity. C3 controlled direction stable and stronger at large n_opp; FE unidentified at n>=10."
+}

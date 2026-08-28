@@ -1,0 +1,10 @@
+{
+  "B": 200,
+  "authentic": -3.495471324370518,
+  "placebo_median": -2.695970499138368,
+  "placebo_p025": -3.938593481855208,
+  "placebo_p975": -1.2623781770964,
+  "empirical_directional_p": 0.14925373134328357,
+  "pct_placebos_as_or_more_extreme": 0.145,
+  "percentile_authentic_more_extreme_than": 0.855
+}

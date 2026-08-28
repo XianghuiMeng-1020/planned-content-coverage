@@ -1,0 +1,20 @@
+{
+  "family": "resource",
+  "semantics": "OULAD activity_type=resource (generic files), not oucontent HTML materials",
+  "n_sites": 12,
+  "controlled": {
+    "n": 2035,
+    "n_learners": 2033,
+    "r2_m2": 0.02802384144575376,
+    "r2_m3": 0.03361935100242541,
+    "partial_r2": 0.005756838279855158,
+    "coef": 3.705660687082925,
+    "se": 1.039528048494068,
+    "p": 0.00036419905638986733,
+    "ci": [
+      1.668223151115345,
+      5.743098223050506
+    ]
+  },
+  "n_scored": 2035
+}

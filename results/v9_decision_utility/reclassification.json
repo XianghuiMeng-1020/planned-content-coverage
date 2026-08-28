@@ -1,0 +1,230 @@
+{
+  "folds": [
+    {
+      "fold": "AAA_2013J",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "AAA_2013J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "AAA_2014J",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "AAA_2014J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "BBB_2013J",
+      "thr": 10,
+      "n_up": 18,
+      "risk_up": 0.0,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "BBB_2013J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "BBB_2014B",
+      "thr": 10,
+      "n_up": 22,
+      "risk_up": 0.0,
+      "n_down": 24,
+      "risk_down": 0.041666666666666664
+    },
+    {
+      "fold": "BBB_2014B",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "BBB_2014J",
+      "thr": 10,
+      "n_up": 146,
+      "risk_up": 0.1780821917808219,
+      "n_down": 4,
+      "risk_down": 0.25
+    },
+    {
+      "fold": "BBB_2014J",
+      "thr": 20,
+      "n_up": 2,
+      "risk_up": 0.0,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "CCC_2014B",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "CCC_2014B",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "CCC_2014J",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "CCC_2014J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "EEE_2013J",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "EEE_2013J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "EEE_2014B",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "EEE_2014B",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "EEE_2014J",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "EEE_2014J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "FFF_2013J",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "FFF_2013J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "FFF_2014B",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "FFF_2014B",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "FFF_2014J",
+      "thr": 10,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    },
+    {
+      "fold": "FFF_2014J",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 0,
+      "risk_down": null
+    }
+  ],
+  "pooled": [
+    {
+      "fold": "POOLED_LOPO_RANKS",
+      "thr": 10,
+      "n_up": 2,
+      "risk_up": 0.0,
+      "n_down": 183,
+      "risk_down": 0.04371584699453552
+    },
+    {
+      "fold": "POOLED_LOPO_RANKS",
+      "thr": 20,
+      "n_up": 0,
+      "risk_up": null,
+      "n_down": 2,
+      "risk_down": 0.0
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: If you use this software, please cite the paper and Kuzilek et al. (2017) for OULAD.
-title: Planned-content coverage reproduction materials
-version: 1.0.0
+title: Planned-content reach reproduction materials
+version: 1.1.0
 date-released: "2026-08-28"
 url: https://github.com/XianghuiMeng-1020/planned-content-coverage
 preferred-citation:
   type: article
-  title: "When Coverage Is Not a Risk Signal: Planned-Content Reach as a Bounded Design Audit"
+  title: "What Non-Access Can Mean: A Validity Study of Planned-Content Reach Before Assessed Work"
   year: 2026

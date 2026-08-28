@@ -1,0 +1,10 @@
+{
+  "T1": "STRONG PASS",
+  "T2": "STRONG PASS",
+  "T3": "MIXED",
+  "T4": "FAIL",
+  "T5": "PASS",
+  "T6": "RECENCY_REMAINS",
+  "T7": "NOT SUPPORTED",
+  "verdict": "REWRITE_RQ4_TIMING_INFORMATIVE"
+}

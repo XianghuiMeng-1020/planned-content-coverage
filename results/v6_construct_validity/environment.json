@@ -1,0 +1,13 @@
+{
+  "python": "3.13.4 (main, Jun  3 2025, 15:34:24) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "pandas": "2.2.3",
+  "numpy": "2.1.3",
+  "seed": 20260826,
+  "perm_seed": 20260827,
+  "perm_B": 200,
+  "protocol_head": "277d203c86cb00e7174c9ce4bcedabea0c465456",
+  "vle_sha16": "2a7e83af477f347e",
+  "sa_sha16": "b33c0f3ea057580b",
+  "v4_untouched": "9afe5ff26054a3ee",
+  "v5_untouched": "f27a0088a4c7f1af"
+}

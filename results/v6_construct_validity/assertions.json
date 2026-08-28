@@ -1,0 +1,13 @@
+{
+  "primary_window_end_lt_submitted": true,
+  "n_click_rows_on_or_after_submission_among_site_merges": 238989,
+  "used_access_rule": "date < date_submitted",
+  "score_not_in_eligibility": true,
+  "future_later_tma_only": true,
+  "current_future_disjoint": true,
+  "unique_row_id": true,
+  "v4_hash": "9afe5ff26054a3ee",
+  "v5_hash": "f27a0088a4c7f1af",
+  "spotcheck_n": 45,
+  "c1_pass": true
+}

@@ -1,0 +1,25 @@
+{
+  "n_zero": 433,
+  "n_included": 38662,
+  "by_presentation_zero": {
+    "AAA_2014J": 1,
+    "BBB_2013J": 37,
+    "BBB_2014B": 87,
+    "BBB_2014J": 236,
+    "CCC_2014B": 9,
+    "CCC_2014J": 12,
+    "FFF_2013J": 26,
+    "FFF_2014B": 11,
+    "FFF_2014J": 14
+  },
+  "mean_score_zero": 62.65127020785219,
+  "mean_score_included": 74.8007345714138,
+  "mean_prior_zero": 1.5034642032332564,
+  "mean_prior_included": 48.5106564585381,
+  "mean_log_clicks_zero": 4.027226040583383,
+  "mean_log_clicks_included": 5.470967482798359,
+  "mean_offset_zero": -16.20323325635104,
+  "mean_offset_included": -0.3964875071129274,
+  "first_tma_frac_zero": 0.9745958429561201,
+  "first_tma_frac_included": 0.3644664011173762
+}

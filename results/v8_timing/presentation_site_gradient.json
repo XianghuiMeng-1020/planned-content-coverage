@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "code_module": "AAA",
+      "code_presentation": "2013J",
+      "n": 1062,
+      "ontime_minus_never": 7.051463448467196,
+      "late_minus_never": 6.39393258426967,
+      "late_minus_ontime": -0.6575308641975255,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "AAA",
+      "code_presentation": "2014J",
+      "n": 951,
+      "ontime_minus_never": 8.225479648556565,
+      "late_minus_never": 8.362358525009121,
+      "late_minus_ontime": 0.13687887645255614,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2013J",
+      "n": 1603,
+      "ontime_minus_never": 3.731875257590332,
+      "late_minus_never": 0.7804310344827599,
+      "late_minus_ontime": -2.951444223107572,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014B",
+      "n": 1060,
+      "ontime_minus_never": 1.76531678938278,
+      "late_minus_never": -2.1922855497984983,
+      "late_minus_ontime": -3.9576023391812782,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "BBB",
+      "code_presentation": "2014J",
+      "n": 34040,
+      "ontime_minus_never": 0.9229121241084357,
+      "late_minus_never": 3.1733168388430215,
+      "late_minus_ontime": 2.250404714734586,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014B",
+      "n": 4085,
+      "ontime_minus_never": 4.995665538440278,
+      "late_minus_never": -2.17793132898467,
+      "late_minus_ontime": -7.173596867424948,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "CCC",
+      "code_presentation": "2014J",
+      "n": 6213,
+      "ontime_minus_never": 5.961608245169089,
+      "late_minus_never": -1.0472967476099626,
+      "late_minus_ontime": -7.008904992779051,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2013J",
+      "n": 15060,
+      "ontime_minus_never": 9.447486672961361,
+      "late_minus_never": 5.8494544499291266,
+      "late_minus_ontime": -3.5980322230322344,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014B",
+      "n": 8836,
+      "ontime_minus_never": 10.4603245988405,
+      "late_minus_never": 6.090358793748621,
+      "late_minus_ontime": -4.36996580509188,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "EEE",
+      "code_presentation": "2014J",
+      "n": 17426,
+      "ontime_minus_never": 8.678925180978794,
+      "late_minus_never": 3.906749319219969,
+      "late_minus_ontime": -4.772175861758825,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2013J",
+      "n": 95245,
+      "ontime_minus_never": 8.490814749588694,
+      "late_minus_never": 6.96599872792693,
+      "late_minus_ontime": -1.5248160216617634,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014B",
+      "n": 53688,
+      "ontime_minus_never": 8.882709956987014,
+      "late_minus_never": 5.565225998491385,
+      "late_minus_ontime": -3.317483958495629,
+      "ontime_gt_never": true
+    },
+    {
+      "code_module": "FFF",
+      "code_presentation": "2014J",
+      "n": 96021,
+      "ontime_minus_never": 6.306112843101133,
+      "late_minus_never": 5.608742059393478,
+      "late_minus_ontime": -0.6973707837076546,
+      "ontime_gt_never": true
+    }
+  ],
+  "n_ontime_gt_never": 13
+}

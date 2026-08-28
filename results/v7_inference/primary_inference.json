@@ -1,0 +1,62 @@
+{
+  "legacy": {
+    "n": 38662,
+    "r2": 0.20079963196796313,
+    "rank": 19,
+    "coef": -3.46903989505509,
+    "se": 0.31903774392078177,
+    "p": 1.5426087811304977e-27,
+    "ci": [
+      -4.094342382848735,
+      -2.843737407261445
+    ],
+    "n_learners": 13568,
+    "partial_r2": 0.003094803148686166
+  },
+  "nonredundant": {
+    "n": 38662,
+    "r2": 0.20079963196796313,
+    "rank": 19,
+    "coef": -3.469039895055076,
+    "se": 0.3190336158793892,
+    "p": 1.5402310413131177e-27,
+    "ci": [
+      -4.094334292036264,
+      -2.843745498073887
+    ],
+    "n_learners": 13568,
+    "partial_r2": 0.003094803148686166
+  },
+  "two_way": {
+    "used": true,
+    "n_assessments": 38,
+    "coef": -3.469039895055076,
+    "se": 1.0073005367704675,
+    "ci": [
+      -5.443312668733056,
+      -1.4947671213770952
+    ],
+    "note": "CGM V1+V2-V12; learner x assessment"
+  },
+  "bootstrap": {
+    "B": 1000,
+    "mean": -3.4672908064359778,
+    "ci_percentile": [
+      -4.061204778862672,
+      -2.8778051286939075
+    ],
+    "seed": 20260828,
+    "method": "learner-cluster percentile; numpy lstsq on frozen nonredundant design"
+  },
+  "vif": {
+    "prior_score_filled": 1.1295754381448417,
+    "log_clicks": 1.503301859745451,
+    "active_rate": Infinity,
+    "n_opp": 1.2863397220438535,
+    "share_never": 1.3633411595810065,
+    "raw_inact": Infinity
+  },
+  "delta_legacy_minus_nonred": -1.4210854715202004e-14,
+  "formula_legacy": "score ~ prior_score_filled + prior_missing + C(pres) + log_clicks + active_rate + n_opp + raw_inact + share_never",
+  "formula_nonredundant": "score ~ prior_score_filled + prior_missing + C(pres) + log_clicks + active_rate + n_opp + share_never"
+}

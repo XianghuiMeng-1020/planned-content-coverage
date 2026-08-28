@@ -1,0 +1,87 @@
+{
+  "site": {
+    "unit": "U1_site",
+    "by_state": [
+      {
+        "state": "early",
+        "n": 44278,
+        "mean_score": 79.31939111974344,
+        "sd_score": 20.316381620988203
+      },
+      {
+        "state": "late",
+        "n": 64344,
+        "mean_score": 76.16717953499938,
+        "sd_score": 16.216780060037422
+      },
+      {
+        "state": "never",
+        "n": 188160,
+        "mean_score": 70.69151785714286,
+        "sd_score": 19.321809227778637
+      },
+      {
+        "state": "ontime",
+        "n": 38508,
+        "mean_score": 77.25085696478654,
+        "sd_score": 18.349307529389687
+      }
+    ],
+    "ontime_minus_never": 6.55933910764368,
+    "late_minus_never": 5.475661677856522,
+    "late_minus_ontime": -1.0836774297871585,
+    "early_minus_ontime": 2.0685341549569074,
+    "legacy_v3": {
+      "early": 78.43,
+      "ontime": 77.02,
+      "late": 76.54,
+      "never": 70.57
+    }
+  },
+  "modal": {
+    "unit": "U3_modal",
+    "n_ties_excluded": 3583,
+    "by_state": [
+      {
+        "state": "early",
+        "n": 9671,
+        "mean_score": 78.84479371316307,
+        "sd_score": 20.397599153499197
+      },
+      {
+        "state": "late",
+        "n": 12988,
+        "mean_score": 74.49060671388975,
+        "sd_score": 17.027712961595252
+      },
+      {
+        "state": "never",
+        "n": 5820,
+        "mean_score": 66.4,
+        "sd_score": 21.241347520225634
+      },
+      {
+        "state": "ontime",
+        "n": 6600,
+        "mean_score": 75.93666666666667,
+        "sd_score": 19.123328718292452
+      }
+    ],
+    "mean_never_share_by_state": {
+      "early": 0.19546519626110795,
+      "late": 0.5075231538872198,
+      "never": 1.0,
+      "ontime": 0.30457816313355496
+    },
+    "ontime_minus_never": 9.536666666666662,
+    "late_minus_never": 8.090606713889741,
+    "late_minus_ontime": -1.4460599527769205,
+    "early_minus_ontime": 2.9081270464964035
+  },
+  "shares_mean": {
+    "early": 0.21945413308023548,
+    "ontime": 0.1537167038462155,
+    "late": 0.174681948502476,
+    "never": 0.45214721457107304
+  }
+}

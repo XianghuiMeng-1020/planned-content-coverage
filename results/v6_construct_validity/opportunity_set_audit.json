@@ -1,0 +1,196 @@
+[
+  {
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "n_oucontent": 68,
+    "n_valid_planned_windows": 3,
+    "n_missing_windows": 65,
+    "n_overlapping_window_pairs": 1,
+    "n_windows_spanning_tma_date": 0,
+    "resources_per_tma": {
+      "1752": 3
+    },
+    "n_unmapped": 0
+  },
+  {
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "n_oucontent": 68,
+    "n_valid_planned_windows": 3,
+    "n_missing_windows": 65,
+    "n_overlapping_window_pairs": 1,
+    "n_windows_spanning_tma_date": 0,
+    "resources_per_tma": {
+      "1758": 3
+    },
+    "n_unmapped": 0
+  },
+  {
+    "code_module": "BBB",
+    "code_presentation": "2013J",
+    "n_oucontent": 3,
+    "n_valid_planned_windows": 1,
+    "n_missing_windows": 2,
+    "n_overlapping_window_pairs": 0,
+    "n_windows_spanning_tma_date": 0,
+    "resources_per_tma": {
+      "14996": 1
+    },
+    "n_unmapped": 0
+  },
+  {
+    "code_module": "BBB",
+    "code_presentation": "2014B",
+    "n_oucontent": 3,
+    "n_valid_planned_windows": 1,
+    "n_missing_windows": 2,
+    "n_overlapping_window_pairs": 0,
+    "n_windows_spanning_tma_date": 0,
+    "resources_per_tma": {
+      "15008": 1
+    },
+    "n_unmapped": 0
+  },
+  {
+    "code_module": "BBB",
+    "code_presentation": "2014J",
+    "n_oucontent": 70,
+    "n_valid_planned_windows": 24,
+    "n_missing_windows": 46,
+    "n_overlapping_window_pairs": 46,
+    "n_windows_spanning_tma_date": 0,
+    "resources_per_tma": {
+      "15020": 8,
+      "15021": 11,
+      "15022": 5
+    },
+    "n_unmapped": 0
+  },
+  {
+    "code_module": "CCC",
+    "code_presentation": "2014B",
+    "n_oucontent": 47,
+    "n_valid_planned_windows": 5,
+    "n_missing_windows": 42,
+    "n_overlapping_window_pairs": 1,
+    "n_windows_spanning_tma_date": 1,
+    "resources_per_tma": {
+      "24282": 3,
+      "24283": 2
+    },
+    "n_unmapped": 0
+  },
+  {
+    "code_module": "CCC",
+    "code_presentation": "2014J",
+    "n_oucontent": 58,
+    "n_valid_planned_windows": 5,
+    "n_missing_windows": 53,
+    "n_overlapping_window_pairs": 1,
+    "n_windows_spanning_tma_date": 1,
+    "resources_per_tma": {
+      "24291": 3,
+      "24292": 2
+    },
+    "n_unmapped": 0
+  },
+  {
+    "code_module": "EEE",
+    "code_presentation": "2013J",
+    "n_oucontent": 48,
+    "n_valid_planned_windows": 26,
+    "n_missing_windows": 22,
+    "n_overlapping_window_pairs": 1,
+    "n_windows_spanning_tma_date": 4,
+    "resources_per_tma": {
+      "30709": 5,
+      "30710": 5,
+      "30711": 7,
+      "30712": 4
+    },
+    "n_unmapped": 5
+  },
+  {
+    "code_module": "EEE",
+    "code_presentation": "2014B",
+    "n_oucontent": 46,
+    "n_valid_planned_windows": 26,
+    "n_missing_windows": 20,
+    "n_overlapping_window_pairs": 1,
+    "n_windows_spanning_tma_date": 4,
+    "resources_per_tma": {
+      "30714": 5,
+      "30715": 5,
+      "30716": 6,
+      "30717": 4
+    },
+    "n_unmapped": 6
+  },
+  {
+    "code_module": "EEE",
+    "code_presentation": "2014J",
+    "n_oucontent": 45,
+    "n_valid_planned_windows": 27,
+    "n_missing_windows": 18,
+    "n_overlapping_window_pairs": 3,
+    "n_windows_spanning_tma_date": 4,
+    "resources_per_tma": {
+      "30719": 6,
+      "30720": 5,
+      "30721": 7,
+      "30722": 4
+    },
+    "n_unmapped": 5
+  },
+  {
+    "code_module": "FFF",
+    "code_presentation": "2013J",
+    "n_oucontent": 107,
+    "n_valid_planned_windows": 88,
+    "n_missing_windows": 19,
+    "n_overlapping_window_pairs": 202,
+    "n_windows_spanning_tma_date": 7,
+    "resources_per_tma": {
+      "34873": 6,
+      "34874": 7,
+      "34875": 33,
+      "34876": 15,
+      "34877": 8
+    },
+    "n_unmapped": 19
+  },
+  {
+    "code_module": "FFF",
+    "code_presentation": "2014B",
+    "n_oucontent": 101,
+    "n_valid_planned_windows": 82,
+    "n_missing_windows": 19,
+    "n_overlapping_window_pairs": 199,
+    "n_windows_spanning_tma_date": 11,
+    "resources_per_tma": {
+      "34886": 7,
+      "34887": 2,
+      "34888": 30,
+      "34889": 17,
+      "34890": 7
+    },
+    "n_unmapped": 19
+  },
+  {
+    "code_module": "FFF",
+    "code_presentation": "2014J",
+    "n_oucontent": 103,
+    "n_valid_planned_windows": 82,
+    "n_missing_windows": 21,
+    "n_overlapping_window_pairs": 199,
+    "n_windows_spanning_tma_date": 18,
+    "resources_per_tma": {
+      "34899": 7,
+      "34900": 2,
+      "34901": 32,
+      "34902": 16,
+      "34903": 16
+    },
+    "n_unmapped": 9
+  }
+]

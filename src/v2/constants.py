@@ -1,4 +1,4 @@
-"""Shared constants for planned-content opportunity windows."""
+"""Shared constants for OCNE v2. Do not rewrite the v1 registry."""
 from __future__ import annotations
 
 import sys

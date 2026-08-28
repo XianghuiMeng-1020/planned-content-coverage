@@ -22,9 +22,7 @@ data/processed/
 
 # Regenerated large intermediates
 results/**/*.parquet
+results/**/*.csv
 results/**/run.log
 results/**/*_run.log
-results/v11_design_replication/_week_level_gap.csv
-results/v11_design_replication/placebo_results.csv
-results/v10_value_boundary/unit_a_defined_occasions.parquet
-results/v10_value_boundary/unit_b_item_reach.csv
+results/**/figures/

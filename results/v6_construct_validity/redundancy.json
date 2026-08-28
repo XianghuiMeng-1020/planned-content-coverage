@@ -1,0 +1,67 @@
+{
+  "corr": {
+    "share_never": {
+      "share_never": 1.0,
+      "log_clicks": -0.3829795511417049,
+      "active_rate": -0.12715830296218453,
+      "raw_inact": 0.1271583029621934,
+      "n_opp": 0.2951211343149213,
+      "prior_score_filled": 0.04700508231900475
+    },
+    "log_clicks": {
+      "share_never": -0.3829795511417049,
+      "log_clicks": 1.0,
+      "active_rate": 0.41418242174986636,
+      "raw_inact": -0.4141824217498592,
+      "n_opp": 0.12117828517862413,
+      "prior_score_filled": 0.14725038712385874
+    },
+    "active_rate": {
+      "share_never": -0.12715830296218453,
+      "log_clicks": 0.41418242174986636,
+      "active_rate": 1.0,
+      "raw_inact": -1.0000000000000013,
+      "n_opp": 0.04095381073802402,
+      "prior_score_filled": 0.05858208585144901
+    },
+    "raw_inact": {
+      "share_never": 0.1271583029621934,
+      "log_clicks": -0.4141824217498592,
+      "active_rate": -1.0000000000000013,
+      "raw_inact": 1.0,
+      "n_opp": -0.04095381073800922,
+      "prior_score_filled": -0.05858208585141994
+    },
+    "n_opp": {
+      "share_never": 0.2951211343149213,
+      "log_clicks": 0.12117828517862413,
+      "active_rate": 0.04095381073802402,
+      "raw_inact": -0.04095381073800922,
+      "n_opp": 1.0,
+      "prior_score_filled": 0.32059660219424
+    },
+    "prior_score_filled": {
+      "share_never": 0.04700508231900475,
+      "log_clicks": 0.14725038712385874,
+      "active_rate": 0.05858208585144901,
+      "raw_inact": -0.05858208585141994,
+      "n_opp": 0.32059660219424,
+      "prior_score_filled": 1.0
+    }
+  },
+  "raw_inact_equals_1_minus_active_rate": true,
+  "vif": {
+    "share_never": 1.3633411595810065,
+    "log_clicks": 1.503301859745451,
+    "active_rate": Infinity,
+    "raw_inact": Infinity,
+    "n_opp": 1.2863397220438535,
+    "prior_score_filled": 1.1295754381448417
+  },
+  "minimal_nonredundant_activity": [
+    "log_clicks",
+    "active_rate",
+    "n_opp"
+  ],
+  "authoritative_spec_unchanged": true
+}
