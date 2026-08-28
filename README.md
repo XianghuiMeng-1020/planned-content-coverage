@@ -40,6 +40,7 @@ python scripts/run_practical.py
 python scripts/run_current_later.py
 python scripts/run_schedule_perm.py
 python scripts/run_kuleuven.py
+python scripts/run_specificity_diagnostic.py
 python scripts/check_reference_outputs.py
 ```
 
@@ -66,6 +67,7 @@ Generated intermediates (including `occasion_table.parquet`) are written under `
 | 10% review-budget extra low-score cases | −1 |
 | KU Leuven material-reach OR | 4.59; Δ McFadden = 0.0019; *n* = 4,292 |
 | KU Leuven S1 singleton-only | OR 1.96; sign not flipped |
+| KU Leuven joint specificity | conditional contrast (PASS B); material OR 12.59 in the joint model |
 
 The OULAD association is small. Exact schedule partition and exact page identity are not established. The same construction reverses on a generic resource family. Predictive transport is heterogeneous. The operational increment is null. The second ecology uses a different, metadata-faithful construct and is not a copy of planned-content reach.
 
