@@ -1,5 +1,5 @@
 {
-  "paper": "What Non-Access Can Mean: A Validity Study of Planned-Content Reach Before Assessed Work",
+  "paper": "Validating Digital Non-Access in Learning Analytics: Planned-Content Reach Before Assessed Work",
   "practical_classification": "INTERPRETIVE_ONLY",
   "n_occasions": 38662,
   "n_learners": 13568,
@@ -14,7 +14,10 @@
   "matched_smd": 0.36,
   "current_joint": -4.28,
   "later_joint": -1.25,
-  "schedule_perm_p": 0.15,
+  "current_later_diff": -3.03,
+  "current_later_p": 0.0049,
+  "schedule_perm_p": 0.103,
+  "schedule_perm_B": 10000,
   "identity_actual": -4.32,
   "identity_placebo": -4.46,
   "ggg_beta": 3.71,
@@ -25,5 +28,10 @@
   "modal_early": 78.84,
   "modal_ontime": 75.94,
   "modal_late": 74.49,
-  "modal_never": 66.40
+  "modal_never": 66.40,
+  "ku_n": 4292,
+  "ku_or": 4.59,
+  "ku_increment": 0.0019,
+  "ku_s1_or": 1.96,
+  "ku_s1_sign_flip": false
 }

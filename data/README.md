@@ -32,3 +32,22 @@ python scripts/prepare_data.py
 ```
 
 This writes parquet tables to `data/interim/oulad/`. Those files are local and gitignored.
+
+## KU Leuven external probe (optional)
+
+This repository does **not** redistribute the KU Leuven Blackboard files.
+
+Source: Tiukhova, E., Van Landuyt, D., Baesens, B., & Snoeck, M. (2026). *Scientific Data*. https://doi.org/10.1038/s41597-026-06821-3
+
+Zenodo: https://doi.org/10.5281/zenodo.17087849 (CC BY 4.0)
+
+After download, set `KULEUVEN_DATA` to a folder with:
+
+| Path | Role |
+|---|---|
+| `official/course_info.json` | Exam-week calendar used for the end-of-instruction cutoff |
+| `extracted/dataset/{1819,1920,2021}_course_participation.xlsx` | Enrolment and first-attempt outcomes |
+| `extracted/dataset/{1819,1920,2021}_course_content.xlsx` | Content hierarchy and availability |
+| `extracted/dataset/{1819,1920,2021}_log_activity.csv` | Fine-grained access events |
+
+The probe construct is **end-of-instruction course-material reach**, not planned-content reach. Do not treat the two as interchangeable.

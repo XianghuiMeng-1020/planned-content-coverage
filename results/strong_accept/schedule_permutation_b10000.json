@@ -1,0 +1,21 @@
+{
+  "protocol": "within-presentation TMA-label shuffle; B=10000; seed 20260827",
+  "B_requested": 10000,
+  "B": 10000,
+  "perm_seed": 20260827,
+  "construction_seed": 20260826,
+  "authentic": -3.495471324370518,
+  "authentic_v6_target": -3.495471324370518,
+  "authentic_abs_diff_vs_v6": 0.0,
+  "placebo_mean": -2.639192749203452,
+  "placebo_median": -2.643087064570218,
+  "placebo_p025": -3.9344183055183923,
+  "placebo_p975": -1.3218248048870718,
+  "empirical_directional_p": 0.10288971102889712,
+  "pct_placebos_as_or_more_extreme": 0.1028,
+  "percentile_authentic_more_extreme_than": 0.8972,
+  "monte_carlo_se": 0.0030381477645645737,
+  "elapsed_sec": 1410.3535752296448,
+  "interpretation_rule": "unique-partition only if p<0.05 or 95% placebo interval excludes authentic; else preserve null",
+  "null_preserved_if": "p>=0.05 and authentic inside [p025,p975]"
+}

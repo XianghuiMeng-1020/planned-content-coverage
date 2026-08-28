@@ -1,0 +1,801 @@
+{
+  "protocol": "frozen-before-coefficient; construct is end-of-instruction course-material reach",
+  "construct": "end-of-instruction course-material reach",
+  "n": 4292,
+  "baseline": {
+    "n": 4292,
+    "formula": "PASSED_FIRST_ATTEMPT ~ np.log1p(n_sessions) + n_active_days + C(environment)",
+    "params": {
+      "Intercept": -1.0991534330167863,
+      "C(environment)[T.Accountancy|1920]": 0.03446868429822073,
+      "C(environment)[T.Accountancy|2021]": -0.5187947431107967,
+      "C(environment)[T.Global economics 1|2021]": -0.552083964188929,
+      "C(environment)[T.Global economics 2|2021]": -1.0053517918817279,
+      "C(environment)[T.Global economics|1819]": -0.1374313799214471,
+      "C(environment)[T.Global economics|1920]": -0.0015550480769454104,
+      "np.log1p(n_sessions)": -0.12197159138087588,
+      "n_active_days": 0.05934912526439262
+    },
+    "se": {
+      "Intercept": 0.2332871429062073,
+      "C(environment)[T.Accountancy|1920]": 0.1109491710881127,
+      "C(environment)[T.Accountancy|2021]": 0.12082355078956741,
+      "C(environment)[T.Global economics 1|2021]": 0.14129558966367553,
+      "C(environment)[T.Global economics 2|2021]": 0.14641917254386894,
+      "C(environment)[T.Global economics|1819]": 0.10999538676386697,
+      "C(environment)[T.Global economics|1920]": 0.11630962081801582,
+      "np.log1p(n_sessions)": 0.09536989951902147,
+      "n_active_days": 0.005051501900558608
+    },
+    "pvalues": {
+      "Intercept": 2.4579117571961394e-06,
+      "C(environment)[T.Accountancy|1920]": 0.7560507842926525,
+      "C(environment)[T.Accountancy|2021]": 1.7562380249033885e-05,
+      "C(environment)[T.Global economics 1|2021]": 9.333404267350492e-05,
+      "C(environment)[T.Global economics 2|2021]": 6.590790380516279e-12,
+      "C(environment)[T.Global economics|1819]": 0.21150836046783028,
+      "C(environment)[T.Global economics|1920]": 0.989332680484106,
+      "np.log1p(n_sessions)": 0.20092109493922938,
+      "n_active_days": 7.162212140529254e-32
+    },
+    "ci95": {
+      "Intercept": [
+        -1.5563878311692014,
+        -0.6419190348643712
+      ],
+      "C(environment)[T.Accountancy|1920]": [
+        -0.1829876951490528,
+        0.2519250637454943
+      ],
+      "C(environment)[T.Accountancy|2021]": [
+        -0.7556045511425948,
+        -0.2819849350789985
+      ],
+      "C(environment)[T.Global economics 1|2021]": [
+        -0.829018231104083,
+        -0.27514969727377503
+      ],
+      "C(environment)[T.Global economics 2|2021]": [
+        -1.2923280967138668,
+        -0.7183754870495889
+      ],
+      "C(environment)[T.Global economics|1819]": [
+        -0.3530183764441801,
+        0.07815561660128592
+      ],
+      "C(environment)[T.Global economics|1920]": [
+        -0.2295177159357665,
+        0.2264076197818757
+      ],
+      "np.log1p(n_sessions)": [
+        -0.30889315964736175,
+        0.06494997688561002
+      ],
+      "n_active_days": [
+        0.049448363471462115,
+        0.06924988705732313
+      ]
+    },
+    "llf": -2630.588388461695,
+    "llnull": -2961.3474276110683,
+    "prsquared": 0.1116920750552386,
+    "converged": true
+  },
+  "primary": {
+    "n": 4292,
+    "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days + C(environment)",
+    "params": {
+      "Intercept": -1.0322973233489763,
+      "C(environment)[T.Accountancy|1920]": -0.057668220834290164,
+      "C(environment)[T.Accountancy|2021]": -0.3632337976599099,
+      "C(environment)[T.Global economics 1|2021]": -0.6110116082956158,
+      "C(environment)[T.Global economics 2|2021]": -1.0259908853870614,
+      "C(environment)[T.Global economics|1819]": -0.29209721831702196,
+      "C(environment)[T.Global economics|1920]": 0.06574075885901985,
+      "material_reach": 1.524618142704204,
+      "np.log1p(n_sessions)": -0.2012122346398507,
+      "n_active_days": 0.05343782215940127
+    },
+    "se": {
+      "Intercept": 0.23389237136158275,
+      "C(environment)[T.Accountancy|1920]": 0.11470934880838343,
+      "C(environment)[T.Accountancy|2021]": 0.12866057815737247,
+      "C(environment)[T.Global economics 1|2021]": 0.14346955089077265,
+      "C(environment)[T.Global economics 2|2021]": 0.14738020125492446,
+      "C(environment)[T.Global economics|1819]": 0.12002079381862955,
+      "C(environment)[T.Global economics|1920]": 0.11790589968893066,
+      "material_reach": 0.4579722942402821,
+      "np.log1p(n_sessions)": 0.09845879999447728,
+      "n_active_days": 0.005327436322072202
+    },
+    "pvalues": {
+      "Intercept": 1.0168590824353395e-05,
+      "C(environment)[T.Accountancy|1920]": 0.6151517243797399,
+      "C(environment)[T.Accountancy|2021]": 0.004754776141915534,
+      "C(environment)[T.Global economics 1|2021]": 2.0550492343897685e-05,
+      "C(environment)[T.Global economics 2|2021]": 3.3660994585854975e-12,
+      "C(environment)[T.Global economics|1819]": 0.01494447766622907,
+      "C(environment)[T.Global economics|1920]": 0.5771382416794835,
+      "material_reach": 0.0008713901711189003,
+      "np.log1p(n_sessions)": 0.040991240691148595,
+      "n_active_days": 1.1174154591287746e-23
+    },
+    "ci95": {
+      "Intercept": [
+        -1.4907179474763461,
+        -0.5738766992216064
+      ],
+      "C(environment)[T.Accountancy|1920]": [
+        -0.2824944131887643,
+        0.16715797152018394
+      ],
+      "C(environment)[T.Accountancy|2021]": [
+        -0.6154038970784607,
+        -0.11106369824135909
+      ],
+      "C(environment)[T.Global economics 1|2021]": [
+        -0.8922067609196667,
+        -0.32981645567156503
+      ],
+      "C(environment)[T.Global economics 2|2021]": [
+        -1.314850771880978,
+        -0.7371309988931446
+      ],
+      "C(environment)[T.Global economics|1819]": [
+        -0.5273336515974434,
+        -0.0568607850366005
+      ],
+      "C(environment)[T.Global economics|1920]": [
+        -0.16535055809607657,
+        0.2968320758141163
+      ],
+      "material_reach": [
+        0.6270089400760708,
+        2.4222273453323373
+      ],
+      "np.log1p(n_sessions)": [
+        -0.39418793659005863,
+        -0.00823653268964275
+      ],
+      "n_active_days": [
+        0.04299623883820923,
+        0.06387940548059332
+      ]
+    },
+    "llf": -2624.8688431171213,
+    "llnull": -2961.3474276110683,
+    "prsquared": 0.11362347469151424,
+    "converged": true
+  },
+  "primary_material": {
+    "coef": 1.524618142704204,
+    "or": 4.593389215187297,
+    "or_025": 1.872002924104979,
+    "or_975": 11.270935643589707,
+    "se": 0.4579722942402821,
+    "p": 0.0008713901711189003,
+    "or_plus25": 1.4639738241144786
+  },
+  "increment_prsquared": 0.0019313996362756436,
+  "lr_stat_vs_baseline": 11.439090689147633,
+  "lr_p_chi2_1": 0.0007191497564293936,
+  "specificity": {
+    "n": 4292,
+    "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + mainpage_reach + np.log1p(n_sessions) + n_active_days + C(environment)",
+    "params": {
+      "Intercept": -0.9085815479031518,
+      "C(environment)[T.Accountancy|1920]": -0.230415875923694,
+      "C(environment)[T.Accountancy|2021]": -0.5286953740750588,
+      "C(environment)[T.Global economics 1|2021]": -0.9271381754814476,
+      "C(environment)[T.Global economics 2|2021]": -1.3432570757169586,
+      "C(environment)[T.Global economics|1819]": -0.2514044045601625,
+      "C(environment)[T.Global economics|1920]": -0.06376765316748872,
+      "material_reach": 2.5330975292643703,
+      "mainpage_reach": -3.549995446143554,
+      "np.log1p(n_sessions)": -0.20383418040916262,
+      "n_active_days": 0.056869181394607095
+    },
+    "se": {
+      "Intercept": 0.23301704300930234,
+      "C(environment)[T.Accountancy|1920]": 0.11752053908313674,
+      "C(environment)[T.Accountancy|2021]": 0.13163582405059368,
+      "C(environment)[T.Global economics 1|2021]": 0.15416004739400155,
+      "C(environment)[T.Global economics 2|2021]": 0.15824951274373938,
+      "C(environment)[T.Global economics|1819]": 0.11904049786466073,
+      "C(environment)[T.Global economics|1920]": 0.12027581034239804,
+      "material_reach": 0.4836965872997758,
+      "mainpage_reach": 0.5480257997502407,
+      "np.log1p(n_sessions)": 0.09771266546172826,
+      "n_active_days": 0.005357170137782348
+    },
+    "pvalues": {
+      "Intercept": 9.650847814974126e-05,
+      "C(environment)[T.Accountancy|1920]": 0.04992062932995698,
+      "C(environment)[T.Accountancy|2021]": 5.910677460145562e-05,
+      "C(environment)[T.Global economics 1|2021]": 1.8085816154850951e-09,
+      "C(environment)[T.Global economics 2|2021]": 2.0982154711668327e-17,
+      "C(environment)[T.Global economics|1819]": 0.03469302603213561,
+      "C(environment)[T.Global economics|1920]": 0.5959881505957652,
+      "material_reach": 1.6324698497662094e-07,
+      "mainpage_reach": 9.307644253478534e-11,
+      "np.log1p(n_sessions)": 0.03697346882265359,
+      "n_active_days": 2.523677284702038e-26
+    },
+    "ci95": {
+      "Intercept": [
+        -1.3652865599854052,
+        -0.45187653582089843
+      ],
+      "C(environment)[T.Accountancy|1920]": [
+        -0.4607518999703738,
+        -7.98518770141754e-05
+      ],
+      "C(environment)[T.Accountancy|2021]": [
+        -0.7866968482894738,
+        -0.2706938998606438
+      ],
+      "C(environment)[T.Global economics 1|2021]": [
+        -1.2292863162286785,
+        -0.6249900347342168
+      ],
+      "C(environment)[T.Global economics 2|2021]": [
+        -1.6534204212657002,
+        -1.033093730168217
+      ],
+      "C(environment)[T.Global economics|1819]": [
+        -0.48471949307661477,
+        -0.018089316043710252
+      ],
+      "C(environment)[T.Global economics|1920]": [
+        -0.299503909649959,
+        0.17196860331498157
+      ],
+      "material_reach": [
+        1.5850696387118757,
+        3.481125419816865
+      ],
+      "mainpage_reach": [
+        -4.624106276252785,
+        -2.475884616034323
+      ],
+      "np.log1p(n_sessions)": [
+        -0.39534748554756083,
+        -0.012320875270764392
+      ],
+      "n_active_days": [
+        0.04636932086550021,
+        0.06736904192371397
+      ]
+    },
+    "llf": -2604.080199760054,
+    "llnull": -2961.3474276110683,
+    "prsquared": 0.12064346942878756,
+    "converged": true
+  },
+  "specificity_material": {
+    "coef": 2.5330975292643703,
+    "or": 12.59245127501101,
+    "or_025": 4.879631177910656,
+    "or_975": 32.49627345430281,
+    "se": 0.4836965872997758,
+    "p": 1.6324698497662094e-07,
+    "or_plus25": 1.883768670612262
+  },
+  "specificity_mainpage": {
+    "coef": -3.549995446143554,
+    "or": 0.028724770462422715,
+    "or_025": 0.009812420711599684,
+    "or_975": 0.08408857124760984,
+    "se": 0.5480257997502407,
+    "p": 9.307644253478534e-11,
+    "or_plus25": 0.4116841451908962
+  },
+  "environment_models": [
+    {
+      "environment": "Accountancy|1819",
+      "status": "ok",
+      "n": 756,
+      "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days",
+      "params": {
+        "Intercept": 0.08496823846801167,
+        "material_reach": 0.647870175528341,
+        "np.log1p(n_sessions)": -0.8122571479949193,
+        "n_active_days": 0.09756066283440346
+      },
+      "se": {
+        "Intercept": 0.3446024506922503,
+        "material_reach": 1.0406821261473673,
+        "np.log1p(n_sessions)": 0.16863039038463284,
+        "n_active_days": 0.013816703992101812
+      },
+      "pvalues": {
+        "Intercept": 0.8052418953313292,
+        "material_reach": 0.5335843712755104,
+        "np.log1p(n_sessions)": 1.4588621188445295e-06,
+        "n_active_days": 1.6522973874475577e-12
+      },
+      "ci95": {
+        "Intercept": [
+          -0.5904401538730387,
+          0.7603766308090621
+        ],
+        "material_reach": [
+          -1.3918293110750684,
+          2.68756966213175
+        ],
+        "np.log1p(n_sessions)": [
+          -1.1427666398477292,
+          -0.4817476561421095
+        ],
+        "n_active_days": [
+          0.07048042062483312,
+          0.1246409050439738
+        ]
+      },
+      "llf": -465.9365715430339,
+      "llnull": -522.3646219202064,
+      "prsquared": 0.10802425740423172,
+      "converged": true,
+      "material": {
+        "coef": 0.647870175528341,
+        "or": 1.911465404789485,
+        "or_025": 0.2486200849145593,
+        "or_975": 14.695916441998879,
+        "se": 1.0406821261473673,
+        "p": 0.5335843712755104,
+        "or_plus25": 1.1758220780816748
+      }
+    },
+    {
+      "environment": "Accountancy|1920",
+      "status": "ok",
+      "n": 711,
+      "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days",
+      "params": {
+        "Intercept": -5.865637574138064,
+        "material_reach": 1.3438134985446735,
+        "np.log1p(n_sessions)": 1.6345362612844665,
+        "n_active_days": -0.009086108669238792
+      },
+      "se": {
+        "Intercept": 1.141634824342889,
+        "material_reach": 1.405507628483913,
+        "np.log1p(n_sessions)": 0.47282280173740293,
+        "n_active_days": 0.022100787795728914
+      },
+      "pvalues": {
+        "Intercept": 2.7778420818875834e-07,
+        "material_reach": 0.33901896344111027,
+        "np.log1p(n_sessions)": 0.0005462769991471606,
+        "n_active_days": 0.6809834575229747
+      },
+      "ci95": {
+        "Intercept": [
+          -8.103200713346837,
+          -3.62807443492929
+        ],
+        "material_reach": [
+          -1.4109308332800987,
+          4.098557830369446
+        ],
+        "np.log1p(n_sessions)": [
+          0.7078205988098343,
+          2.561251923759099
+        ],
+        "n_active_days": [
+          -0.05240285677882983,
+          0.03423063944035225
+        ]
+      },
+      "llf": -417.3124804620328,
+      "llnull": -489.27672299358596,
+      "prsquared": 0.1470829065630751,
+      "converged": true,
+      "material": {
+        "coef": 1.3438134985446735,
+        "or": 3.833635227287582,
+        "or_025": 0.24391613219660166,
+        "or_975": 60.253329386407316,
+        "se": 1.405507628483913,
+        "p": 0.33901896344111027,
+        "or_plus25": 1.3992737816407799
+      }
+    },
+    {
+      "environment": "Accountancy|2021",
+      "status": "ok",
+      "n": 725,
+      "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days",
+      "params": {
+        "Intercept": -1.6173720416439898,
+        "material_reach": 0.5060677589039158,
+        "np.log1p(n_sessions)": -0.31006366440330085,
+        "n_active_days": 0.07447883165007645
+      },
+      "se": {
+        "Intercept": 1.119665043659302,
+        "material_reach": 1.6924682275127236,
+        "np.log1p(n_sessions)": 0.3991028736342108,
+        "n_active_days": 0.01531188110745114
+      },
+      "pvalues": {
+        "Intercept": 0.14859439160713128,
+        "material_reach": 0.7649311378067254,
+        "np.log1p(n_sessions)": 0.43721682231129555,
+        "n_active_days": 1.1496697971258278e-06
+      },
+      "ci95": {
+        "Intercept": [
+          -3.811875201964689,
+          0.5771311186767096
+        ],
+        "material_reach": [
+          -2.811109011999365,
+          3.823244529807196
+        ],
+        "np.log1p(n_sessions)": [
+          -1.0922909228527944,
+          0.4721635940461926
+        ],
+        "n_active_days": [
+          0.044468096143912936,
+          0.10448956715623996
+        ]
+      },
+      "llf": -403.38532137673343,
+      "llnull": -477.6096293607843,
+      "prsquared": 0.1554078967867336,
+      "converged": true,
+      "material": {
+        "coef": 0.5060677589039158,
+        "or": 1.65875572641238,
+        "or_025": 0.06013826134299538,
+        "or_975": 45.7524128310427,
+        "se": 1.6924682275127236,
+        "p": 0.7649311378067254,
+        "or_plus25": 1.1348686753776276
+      }
+    },
+    {
+      "environment": "Global economics 1|2021",
+      "status": "ok",
+      "n": 341,
+      "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days",
+      "params": {
+        "Intercept": -4.775827875758864,
+        "material_reach": 4.087476818731663,
+        "np.log1p(n_sessions)": 0.9102846641757281,
+        "n_active_days": -0.0027036795952506856
+      },
+      "se": {
+        "Intercept": 1.6436208684754676,
+        "material_reach": 1.7983418967034277,
+        "np.log1p(n_sessions)": 0.6246271207124955,
+        "n_active_days": 0.023697150271871574
+      },
+      "pvalues": {
+        "Intercept": 0.0036646199858804984,
+        "material_reach": 0.023031351405604576,
+        "np.log1p(n_sessions)": 0.14502671310898932,
+        "n_active_days": 0.9091640501304384
+      },
+      "ci95": {
+        "Intercept": [
+          -7.997265582209225,
+          -1.5543901693085025
+        ],
+        "material_reach": [
+          0.5627914693034941,
+          7.612162168159831
+        ],
+        "np.log1p(n_sessions)": [
+          -0.3139619961877158,
+          2.134531324539172
+        ],
+        "n_active_days": [
+          -0.04914924066435252,
+          0.043741881473851156
+        ]
+      },
+      "llf": -200.74698973533754,
+      "llnull": -236.3617222973411,
+      "prsquared": 0.15067893487931394,
+      "converged": true,
+      "material": {
+        "coef": 4.087476818731663,
+        "or": 59.58934713391408,
+        "or_025": 1.7555662760757684,
+        "or_975": 2022.6466754553103,
+        "se": 1.7983418967034277,
+        "p": 0.023031351405604576,
+        "or_plus25": 2.778383280292555
+      }
+    },
+    {
+      "environment": "Global economics 2|2021",
+      "status": "ok",
+      "n": 335,
+      "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days",
+      "params": {
+        "Intercept": -7.681292208861467,
+        "material_reach": 2.3098816966769977,
+        "np.log1p(n_sessions)": 2.2231871225337576,
+        "n_active_days": -0.051947651518701086
+      },
+      "se": {
+        "Intercept": 2.01212562014798,
+        "material_reach": 1.6326075957299542,
+        "np.log1p(n_sessions)": 0.752306061338003,
+        "n_active_days": 0.02775130194701838
+      },
+      "pvalues": {
+        "Intercept": 0.00013481006675877515,
+        "material_reach": 0.15711484448237178,
+        "np.log1p(n_sessions)": 0.0031250378239122715,
+        "n_active_days": 0.0612204924357434
+      },
+      "ci95": {
+        "Intercept": [
+          -11.62498595672183,
+          -3.737598461001105
+        ],
+        "material_reach": [
+          -0.8899703918402411,
+          5.5097337851942365
+        ],
+        "np.log1p(n_sessions)": [
+          0.7486943369600909,
+          3.6976799081074243
+        ],
+        "n_active_days": [
+          -0.10633920385895339,
+          0.002443900821551215
+        ]
+      },
+      "llf": -200.67614089145195,
+      "llnull": -225.4589084787417,
+      "prsquared": 0.10992143869811422,
+      "converged": true,
+      "material": {
+        "coef": 2.3098816966769977,
+        "or": 10.073232887595974,
+        "or_025": 0.41066791169347994,
+        "or_975": 247.08534053540018,
+        "se": 1.6326075957299542,
+        "p": 0.15711484448237178,
+        "or_plus25": 1.7815262204978983
+      }
+    },
+    {
+      "environment": "Global economics|1819",
+      "status": "ok",
+      "n": 743,
+      "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days",
+      "params": {
+        "Intercept": -1.4073266908390643,
+        "material_reach": 1.4205399395972298,
+        "np.log1p(n_sessions)": 0.0843371589509382,
+        "n_active_days": 0.020162375258124
+      },
+      "se": {
+        "Intercept": 0.4146339398127223,
+        "material_reach": 0.8039964578990297,
+        "np.log1p(n_sessions)": 0.20013721005795976,
+        "n_active_days": 0.013240428244224597
+      },
+      "pvalues": {
+        "Intercept": 0.0006884385151799422,
+        "material_reach": 0.0772536029647397,
+        "np.log1p(n_sessions)": 0.6734654318250484,
+        "n_active_days": 0.1278115638839427
+      },
+      "ci95": {
+        "Intercept": [
+          -2.2199942796399483,
+          -0.5946591020381802
+        ],
+        "material_reach": [
+          -0.15526416158264245,
+          2.9963440407771023
+        ],
+        "np.log1p(n_sessions)": [
+          -0.3079245647289904,
+          0.47659888263086675
+        ],
+        "n_active_days": [
+          -0.005788387240443112,
+          0.04611313775669111
+        ]
+      },
+      "llf": -487.62743435703885,
+      "llnull": -512.5014968514345,
+      "prsquared": 0.048534614332270354,
+      "converged": true,
+      "material": {
+        "coef": 1.4205399395972298,
+        "or": 4.139354838561371,
+        "or_025": 0.8561889753731996,
+        "or_975": 20.012239087816894,
+        "se": 0.8039964578990297,
+        "p": 0.0772536029647397,
+        "or_plus25": 1.426373180127241
+      }
+    },
+    {
+      "environment": "Global economics|1920",
+      "status": "ok",
+      "n": 681,
+      "formula": "PASSED_FIRST_ATTEMPT ~ material_reach + np.log1p(n_sessions) + n_active_days",
+      "params": {
+        "Intercept": -0.4268515627474214,
+        "material_reach": 5.603483685210419,
+        "np.log1p(n_sessions)": -0.4709699071153365,
+        "n_active_days": 0.038819335242652964
+      },
+      "se": {
+        "Intercept": 0.6186569814670233,
+        "material_reach": 1.727236187437296,
+        "np.log1p(n_sessions)": 0.27611026446479936,
+        "n_active_days": 0.01399952106371253
+      },
+      "pvalues": {
+        "Intercept": 0.49021630097736735,
+        "material_reach": 0.0011778483415653615,
+        "np.log1p(n_sessions)": 0.08805812815324637,
+        "n_active_days": 0.005555841923188119
+      },
+      "ci95": {
+        "Intercept": [
+          -1.6393969652070508,
+          0.785693839712208
+        ],
+        "material_reach": [
+          2.2181629650390446,
+          8.988804405381792
+        ],
+        "np.log1p(n_sessions)": [
+          -1.0121360812281728,
+          0.07019626699749981
+        ],
+        "n_active_days": [
+          0.011380778156966538,
+          0.0662578923283394
+        ]
+      },
+      "llf": -402.76532123941627,
+      "llnull": -453.2991254599097,
+      "prsquared": 0.11148003907844006,
+      "converged": true,
+      "material": {
+        "coef": 5.603483685210419,
+        "or": 271.3701307653059,
+        "or_025": 9.190432203653518,
+        "or_975": 8012.871020614675,
+        "se": 1.727236187437296,
+        "p": 0.0011778483415653615,
+        "or_plus25": 4.05873326527122
+      }
+    }
+  ],
+  "loeo": [
+    {
+      "dropped": "Accountancy|1819",
+      "n": 3536,
+      "material": {
+        "coef": 1.4610687074858875,
+        "or": 4.310563799398323,
+        "or_025": 1.5830073758597765,
+        "or_975": 11.73775975528317,
+        "se": 0.5111023850850316,
+        "p": 0.004254324980146141,
+        "or_plus25": 1.4408989315942569
+      }
+    },
+    {
+      "dropped": "Accountancy|1920",
+      "n": 3581,
+      "material": {
+        "coef": 1.487395108367903,
+        "or": 4.425552406820674,
+        "or_025": 1.7173783793473647,
+        "or_975": 11.404309231468906,
+        "se": 0.4829661084767691,
+        "p": 0.0020720288125961003,
+        "or_plus25": 1.45041362894122
+      }
+    },
+    {
+      "dropped": "Accountancy|2021",
+      "n": 3567,
+      "material": {
+        "coef": 1.9371806773214568,
+        "or": 6.93915963633491,
+        "or_025": 2.6421395603846913,
+        "or_975": 18.22459993427781,
+        "se": 0.4926578531385454,
+        "p": 8.420649970653792e-05,
+        "or_plus25": 1.623030643824297
+      }
+    },
+    {
+      "dropped": "Global economics 1|2021",
+      "n": 3951,
+      "material": {
+        "coef": 1.2777231177176773,
+        "or": 3.5884599160677073,
+        "or_025": 1.4183568251117282,
+        "or_975": 9.07884697365227,
+        "se": 0.47359241744916614,
+        "p": 0.006977037250598659,
+        "or_plus25": 1.3763440979448542
+      }
+    },
+    {
+      "dropped": "Global economics 2|2021",
+      "n": 3957,
+      "material": {
+        "coef": 1.5769834611253137,
+        "or": 4.840332714955731,
+        "or_025": 1.8835667244351955,
+        "or_975": 12.438540396542663,
+        "se": 0.48154777091768797,
+        "p": 0.0010572839309686479,
+        "or_plus25": 1.4832651872594824
+      }
+    },
+    {
+      "dropped": "Global economics|1819",
+      "n": 3549,
+      "material": {
+        "coef": 1.9715033966914235,
+        "or": 7.181464967304236,
+        "or_025": 2.342696540440398,
+        "or_975": 22.014562358521623,
+        "se": 0.5715415037797918,
+        "p": 0.0005617313617572537,
+        "or_plus25": 1.6370172717242906
+      }
+    },
+    {
+      "dropped": "Global economics|1920",
+      "n": 3611,
+      "material": {
+        "coef": 1.1397643062769582,
+        "or": 3.126031492350638,
+        "or_025": 1.229496615912468,
+        "or_975": 7.9480274810806515,
+        "se": 0.4761105221202129,
+        "p": 0.016669975499188527,
+        "or_plus25": 1.329683676289084
+      }
+    }
+  ],
+  "covid_split": {
+    "pre_2020": {
+      "n": 2891,
+      "material": {
+        "coef": 1.6764196775962414,
+        "or": 5.346379899613534,
+        "or_025": 1.8512123932515103,
+        "or_975": 15.440571884237679,
+        "se": 0.541121629690511,
+        "p": 0.0019480121686515045,
+        "or_plus25": 1.5205998868473853
+      },
+      "prsquared": 0.09653155488034992
+    },
+    "y2020_21": {
+      "n": 1401,
+      "material": {
+        "coef": 1.2310155368601703,
+        "or": 3.4247056857710936,
+        "or_025": 0.6132105278524644,
+        "or_975": 19.1265617621208,
+        "se": 0.8775990343957799,
+        "p": 0.16070381159672542,
+        "or_plus25": 1.3603661401526415
+      },
+      "prsquared": 0.15367692448453119
+    }
+  }
+}

@@ -11,6 +11,7 @@ V6 = ROOT / "results" / "v6_construct_validity"
 V7 = ROOT / "results" / "v7_inference"
 V8 = ROOT / "results" / "v8_timing"
 V9 = ROOT / "results" / "v9_decision_utility"
+SA = ROOT / "results" / "strong_accept"
 REF = ROOT / "results" / "reference" / "headlines.json"
 
 
@@ -28,7 +29,10 @@ def main() -> None:
     fe = _load(V7 / "within_learner.json")["FE_A"]
     match = _load(V6 / "activity_matched.json")
     fut = _load(V6 / "future_content.json")["intersection"]["F3_joint"]
-    perm = _load(V6 / "schedule_permutation.json")
+    perm = _load(SA / "schedule_permutation_b10000.json")
+    wald = _load(SA / "current_later_wald.json")
+    ku = _load(SA / "kuleuven_external_results.json")
+    s1 = _load(SA / "kuleuven_s1_sensitivity.json")
     ident = _load(V6 / "identity_placebo_forensic.json")
     # key name may be nested; accept either top-level or first analysis block
     if "coef_actual" not in ident:
@@ -52,7 +56,15 @@ def main() -> None:
         ("matched contrast", round(match["weighted_mean"], 2), h["matched_contrast"]),
         ("current joint", round(fut["current"]["coef"], 2), h["current_joint"]),
         ("later joint", round(fut["future"]["coef"], 2), h["later_joint"]),
-        ("schedule perm p", round(perm["empirical_directional_p"], 2), h["schedule_perm_p"]),
+        ("schedule perm p", round(perm["empirical_directional_p"], 3), h["schedule_perm_p"]),
+        ("schedule perm B", perm["B"], h["schedule_perm_B"]),
+        ("current-later diff", round(wald["diff_current_minus_later"], 2), h["current_later_diff"]),
+        ("current-later p", round(wald["wald_p"], 4), h["current_later_p"]),
+        ("KU n", ku["n"], h["ku_n"]),
+        ("KU OR", round(ku["primary_material"]["or"], 2), h["ku_or"]),
+        ("KU increment", round(ku["increment_prsquared"], 4), h["ku_increment"]),
+        ("KU S1 OR", round(s1["primary_material"]["or"], 2), h["ku_s1_or"]),
+        ("KU S1 sign flip", s1["sign_flipped_vs_primary"], h["ku_s1_sign_flip"]),
         ("identity actual", round(ident["coef_actual"], 2), h["identity_actual"]),
         ("identity placebo", round(ident["coef_placebo"], 2), h["identity_placebo"]),
         ("GGG beta", round(ggg["coef"], 2), h["ggg_beta"]),

@@ -1,0 +1,29 @@
+{
+  "decision_rule": "support current>later only if 95% CI of (beta_current-beta_later) excludes 0 and difference<0",
+  "formula": "score ~ prior_score_filled + prior_missing + C(pres) + log_clicks + active_rate + n_opp + raw_inact + share_never + future_never_share",
+  "clustering": "id_student",
+  "n": 24086,
+  "n_learners": 8895,
+  "beta_current": -4.282850927584417,
+  "beta_later": -1.2529300551438114,
+  "ci_current": [
+    -5.238511945289371,
+    -3.327189909879463
+  ],
+  "ci_later": [
+    -3.092644145321488,
+    0.5867840350338656
+  ],
+  "diff_current_minus_later": -3.0299208724406057,
+  "se_diff": 1.0767765789600428,
+  "z": -2.813880735934024,
+  "wald_stat": 7.917924796060593,
+  "wald_p": 0.004894738441543581,
+  "ci95_diff": [
+    -5.14040296720229,
+    -0.9194387776789221
+  ],
+  "excludes_zero": true,
+  "supports_current_more_negative": true,
+  "seed_note": 20260828
+}

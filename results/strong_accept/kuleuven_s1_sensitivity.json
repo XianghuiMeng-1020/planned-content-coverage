@@ -1,0 +1,60 @@
+{
+  "rule": "S1 singleton-only timestamps",
+  "n": 4292,
+  "primary_material": {
+    "coef": 0.6746618907693824,
+    "or": 1.9633690305407987,
+    "or_025": 0.7963583410465161,
+    "or_975": 4.84055700982675,
+    "se": 0.46040024976486105,
+    "p": 0.14281693171624985,
+    "or_plus25": 1.183724084651134
+  },
+  "sign_flipped_vs_primary": false,
+  "environments": [
+    {
+      "environment": "Accountancy|1819",
+      "eligible_material": 108,
+      "kept_events_s1_before_cutoff": 113388,
+      "reach_mean": 0.16610327258475407
+    },
+    {
+      "environment": "Global economics|1819",
+      "eligible_material": 50,
+      "kept_events_s1_before_cutoff": 150336,
+      "reach_mean": 0.312328398384926
+    },
+    {
+      "environment": "Accountancy|1920",
+      "eligible_material": 94,
+      "kept_events_s1_before_cutoff": 132843,
+      "reach_mean": 0.2307957027860071
+    },
+    {
+      "environment": "Global economics|1920",
+      "eligible_material": 263,
+      "kept_events_s1_before_cutoff": 155461,
+      "reach_mean": 0.14788697006750307
+    },
+    {
+      "environment": "Accountancy|2021",
+      "eligible_material": 194,
+      "kept_events_s1_before_cutoff": 155315,
+      "reach_mean": 0.1042801279772485
+    },
+    {
+      "environment": "Global economics 1|2021",
+      "eligible_material": 153,
+      "kept_events_s1_before_cutoff": 107144,
+      "reach_mean": 0.25379027466313997
+    },
+    {
+      "environment": "Global economics 2|2021",
+      "eligible_material": 134,
+      "kept_events_s1_before_cutoff": 74848,
+      "reach_mean": 0.20788594341724212
+    }
+  ],
+  "prsquared": 0.11277812234606577,
+  "converged": true
+}
