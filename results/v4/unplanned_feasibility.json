@@ -1,4 +1,0 @@
-{
-  "feasible": false,
-  "reason": "Empty week_from/week_to is missing documentation, not a documented unplanned resource (Kuzilek 2017; V1 Sensitivity C found zero confident non-plan weeks). Manufacturing an unplanned set from NA fields is forbidden."
-}

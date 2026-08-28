@@ -1,9 +1,7 @@
 """Shared paths and frozen constants.
 
-OULAD is not redistributed in this repository (CC-BY 4.0; download separately,
-see README.md). Point the environment variables below at your local copies,
-or drop the files into `data/raw/oulad` and `data/interim/oulad` and leave the
-defaults untouched.
+OULAD is not redistributed (CC-BY 4.0). Download it separately (see README.md).
+Point OULAD_RAW and OULAD_INTERIM at local copies, or use the defaults under data/.
 """
 from __future__ import annotations
 
@@ -15,7 +13,8 @@ ROOT = Path(__file__).resolve().parents[2]
 OULAD_RAW = Path(os.environ.get("OULAD_RAW", ROOT / "data" / "raw" / "oulad"))
 OULAD_INTERIM = Path(os.environ.get("OULAD_INTERIM", ROOT / "data" / "interim" / "oulad"))
 
-# Development presentations (pre-registered before any outcome was inspected).
+# Presentations used to define the oucontent development set (BBB/EEE/FFF).
+# AAA and CCC enter the frozen analyses through v3/v4 constants.
 PRIMARY_PRES = {
     ("BBB", "2013J"),
     ("BBB", "2014B"),

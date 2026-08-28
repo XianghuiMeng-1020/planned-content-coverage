@@ -1,0 +1,19 @@
+{
+  "unit": "planned oucontent site x presentation; official next TMA cutoff",
+  "n_eligible_items": 310,
+  "n_contexts_presentations": 13,
+  "n_modules": 5,
+  "comparable_unit": "mean Gap by week_from within module-presentation",
+  "n_same_module_pairs": 11,
+  "n_pairs_overlap_ge4": 7,
+  "n_pairs_with_rho": 7,
+  "primary_metric": "median Spearman rho of week-level Gap across same-module pairs with >=4 overlapping weeks",
+  "median_rho": 0.8073717319582724,
+  "rho_min": 0.6496240601503759,
+  "rho_max": 1.0,
+  "week_position_late_minus_early_gap": 0.385786036968332,
+  "proximity_le14_minus_gt14_gap": -0.0291510575945515,
+  "scenario": "B1",
+  "required_optional_status": "not documented in OULAD VLE; not tested",
+  "high_gap_means_poor_quality": false
+}

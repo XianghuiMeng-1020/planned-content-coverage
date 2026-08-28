@@ -1,0 +1,7 @@
+{
+  "rule": "score < 40",
+  "rationale": "OULAD documented pass mark",
+  "n": 38662,
+  "n_learners": 13568,
+  "prevalence": 0.05046298691221354
+}

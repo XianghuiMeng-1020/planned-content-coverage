@@ -1,0 +1,24 @@
+{
+  "SUB_A": {
+    "label": "SUB-A",
+    "n_defined": 48144,
+    "n_undefined": 25970,
+    "submitters_n": 38662,
+    "nonsubmit_n": 9482,
+    "never_submitters": 0.45214721457107304,
+    "never_nonsubmit": 0.8259916702774377,
+    "nopp_submit_median": 6.0,
+    "nopp_non_median": 6.0
+  },
+  "SUB_B": {
+    "label": "SUB-B",
+    "n_defined": 48577,
+    "n_undefined": 25537,
+    "submitters_n": 39095,
+    "nonsubmit_n": 9482,
+    "never_submitters": 0.451423773179818,
+    "never_nonsubmit": 0.8259916702774377,
+    "nopp_submit_median": 6.0,
+    "nopp_non_median": 6.0
+  }
+}

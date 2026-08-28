@@ -1,8 +1,30 @@
+.DS_Store
 __pycache__/
 *.pyc
-.DS_Store
-data/raw/
-data/interim/
+.env
+.env.*
+*.log
+reports/
+submissions/
+manuscript/
+tmp/
+cache/
+.idea/
+.vscode/
 .venv/
 venv/
 *.egg-info/
+
+# Local OULAD copies — download from the official release
+data/raw/
+data/interim/
+data/processed/
+
+# Regenerated large intermediates
+results/**/*.parquet
+results/**/run.log
+results/**/*_run.log
+results/v11_design_replication/_week_level_gap.csv
+results/v11_design_replication/placebo_results.csv
+results/v10_value_boundary/unit_a_defined_occasions.parquet
+results/v10_value_boundary/unit_b_item_reach.csv

@@ -1,9 +1,0 @@
-{
-  "rho_next": -0.2491902734902902,
-  "rho_prior": -0.30657420243339345,
-  "rho_later_tma": -0.2531964757026924,
-  "n_next": 39647,
-  "n_prior": 30780,
-  "n_later": 24807,
-  "next_stronger_than_prior": false
-}

@@ -1,4 +1,4 @@
-"""Loaders. Confirmatory outcome tables are not loaded by metadata audit."""
+"""Loaders for official OULAD tables after local preparation."""
 from __future__ import annotations
 
 import sys
@@ -57,7 +57,30 @@ def load_student_assessment() -> pd.DataFrame:
 
 
 def load_student_vle() -> pd.DataFrame:
-    sv = list(pyreadr.read_r(OULAD_RAW / "student_vle.rda").values())[0]
+    candidates = [
+        OULAD_INTERIM / "student_vle.parquet",
+        OULAD_RAW / "student_vle.parquet",
+        OULAD_RAW / "student_vle.rda",
+        OULAD_RAW / "studentVle.csv",
+        OULAD_RAW / "student_vle.csv",
+    ]
+    sv = None
+    for path in candidates:
+        if not path.exists():
+            continue
+        if path.suffix == ".parquet":
+            sv = pd.read_parquet(path)
+        elif path.suffix == ".rda":
+            sv = list(pyreadr.read_r(path).values())[0]
+        else:
+            sv = pd.read_csv(path)
+        break
+    if sv is None:
+        raise FileNotFoundError(
+            "student VLE table not found. Place studentVle.csv, student_vle.rda, "
+            "or student_vle.parquet under data/raw/oulad or data/interim/oulad "
+            "(see scripts/prepare_data.py)."
+        )
     sv["date"] = pd.to_numeric(sv["date"], errors="coerce")
     sv["sum_click"] = pd.to_numeric(sv["sum_click"], errors="coerce").fillna(0)
     sv["week"] = np.floor(sv["date"].clip(lower=0) / 7.0) + 1
